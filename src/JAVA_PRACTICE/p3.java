@@ -1,9 +1,17 @@
-public class p3 {
-    public static void main(String[] args) {
-        int num = 3;
+ class GitTeamWishes {
 
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(num + " x " + i + " = " + (num * i));
+    public static void main(String[] args) {
+        String[] teamMembers = {"ajay","amit","subash","abhishek","Janaranjan+"};
+
+        System.out.println("🎉 Wishing All Git Practice Members 🎉");
+        System.out.println("======================================");
+
+        for (String member : teamMembers) {
+            System.out.println("🚀 Keep pushing code, " + member + "! You're doing amazing 💻");
         }
+
+        System.out.println("\n💬 Remember:");
+        System.out.println("\"Commit your knowledge, push your efforts, and pull success into your life!\"");
+        System.out.println("\nHappy Coding & Keep Collaborating! 🔥");
     }
 }
