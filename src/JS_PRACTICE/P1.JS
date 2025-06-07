@@ -7,3 +7,6 @@ console.log(double);
 console.log("Hello jnana");
 var userName=" Jnana";
 console.log(userName + ", Welcome to code practice ");
+
+console.log("This is from 2nd loudu lallit");
+console.log("This is 3rd Loudu lallit");
