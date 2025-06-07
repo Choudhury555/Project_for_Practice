@@ -1,6 +1,5 @@
 public class P1 {
     public static void main(String[] args) {
-        System.out.println("Hello World");
-        System.out.println("Hello Ajaya Bhai Java King");
+        System.out.println("Hello, World!");
     }
 }
