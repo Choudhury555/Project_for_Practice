@@ -17,3 +17,7 @@ const evenNumbers = numbers.filter(num => num % 2 === 0);
 console.log(evenNumbers); // Output: [2, 4, 6, 8, 10]
 console.log("This is from 2nd loudu lallit");
 console.log("This is 3rd Loudu lallit");
+
+const str = "programming";
+const uniqueStr = [...new Set(str)].join('');
+console.log(uniqueStr); // Output: "progamin"
